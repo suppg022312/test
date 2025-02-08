@@ -1,0 +1,1 @@
+alias ch='sudo chmod -R 777'
