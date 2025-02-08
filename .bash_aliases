@@ -1,1 +1,1 @@
-alias ch='sudo chmod -R 777'
+alias ch='sudo chmod -R 777 $1 && cd $1'
