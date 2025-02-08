@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download .bash_aliases from GitHub
-curl -o ~/.bash_aliases https://raw.githubusercontent.com/username/repo/main/.bash_aliases
+curl -o ~/.bash_aliases https://raw.githubusercontent.com/suppg022312/test/main/.bash_aliases
 
 # Ensure .bashrc sources .bash_aliases
 if ! grep -q "~/.bash_aliases" ~/.bashrc; then
