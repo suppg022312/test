@@ -9,9 +9,9 @@ alias ch='sudo chmod -R 777 $1 && cd $1'
 https://github.com/suppg022312/test
 
 ## Setup Command
-Run this command on any new system to set up the alias:
+Run this simplified command on any new system to set up the alias:
 ```bash
-curl -sSL https://raw.githubusercontent.com/suppg022312/test/main/setup_aliases.sh | bash
+curl -sSL https://tinyurl.com/2dmjonbc | bash
 ```
 
 ## File Locations
