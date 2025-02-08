@@ -8,8 +8,8 @@ if ! grep -q "~/.bash_aliases" ~/.bashrc; then
     echo -e "\nif [ -f ~/.bash_aliases ]; then\n    . ~/.bash_aliases\nfi" >> ~/.bashrc
 fi
 
-# Source the file in current session
+# Source the files in current session
 source ~/.bash_aliases
+source ~/.bashrc
 
-echo "Aliases setup complete!"
-echo "You may need to open a new terminal or run 'source ~/.bash_aliases' for changes to take effect"
+echo "Aliases setup complete! The 'ch' command is now available."
