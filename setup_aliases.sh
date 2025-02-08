@@ -12,3 +12,4 @@ fi
 source ~/.bash_aliases
 
 echo "Aliases setup complete!"
+echo "You may need to open a new terminal or run 'source ~/.bash_aliases' for changes to take effect"
